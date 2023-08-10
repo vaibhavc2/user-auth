@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(223, 223, 223);
+    background-color: rgb(27, 27, 27);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(10, 78, 134);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    padding: 4rem 4rem;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 1rem;
+    outline: none;
+    border: 1px solid rgb(228, 228, 168);
+    border-radius: 5px;
+    background-color: rgb(195, 208, 212);
+    font-size: large;
+}
+
+button {
+    background-color: blueviolet;
+    color: rgb(184, 184, 241);
+    border-radius: 5px;
+    width: 12rem;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin-top: 1.2rem;
+    font-size: large;
+}
+
+.error {
+    color: red;
+    text-align: right;
+    margin: 1rem;
+}
+
+/* .invisible {
+    visibility: hidden;
+} */
